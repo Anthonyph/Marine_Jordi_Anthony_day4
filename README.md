@@ -37,4 +37,8 @@ on a crée 4 DEF
 cette fonction détermine également le nombre de lancé qu'il faut pour gagner.
 -et enfin une méthode average_finish_time qui calcule la moyenne sur 100 parties la moyenne de lancé de dé qu'il a fallu.
 
+03_stairway_complex.rb
+
+C'est une version de stairway un peu plus complexe car on permet à l'utilisateur de choisir s'il veut simuler 
+le jeu (et combien de tour de simulation) ou y jouer manuellement.
 

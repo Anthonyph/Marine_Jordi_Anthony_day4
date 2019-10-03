@@ -6,10 +6,11 @@
 
 def lancer_de_dé
 dice = rand(1..6).to_s
-#print "appuie sur entrée pour relancer le dé" #pour mettre entrer manuel
+#print "appuie sur entrée pour relancer le dé" 
 #blank = gets.chomp
 return dice    
 end
+#pour mettre le jeu en manuel, retirer les deux # # dans la def lancer_de_dé
 
 def valeur_n
     dice=lancer_de_dé
@@ -59,6 +60,11 @@ def average_finish_time
 puts "En moyenne, il a fallut #{somme/taille} lancés de dé !"
 end
 
+#############################################################
+#tape jeu si tu veux jouer 
+
 jeu
+#tape average_finish_time si tu veux simuler 100 fois le jeu
 
-
+#average_finish_time
+#############################################################
