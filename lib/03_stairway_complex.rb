@@ -6,10 +6,15 @@
 
 def lancer_de_dé_user
 dice = rand(1..6).to_s
-#print "appuie sur entrée pour relancer le dé" #pour mettre entrer manuel
-#blank = gets.chomp
+print "appuie sur entrée pour relancer le dé"
+blank = gets.chomp
 return dice    
 end
+
+def lancer_de_dé_simulation
+    dice = rand(1..6).to_s
+    print "appuie sur entrée pour relancer le dé"
+    end
 
 def valeur_n
     dice=lancer_de_dé
@@ -26,6 +31,7 @@ def valeur_n
     end
     return n
 end
+
 
 def jeu
     total = 0
