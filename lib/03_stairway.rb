@@ -40,7 +40,7 @@ end
 
 def average_finish_time
     results_array = []
-    5.times do 
+    100.times do 
         z=jeu
         jeu
         results_array << z
@@ -48,7 +48,7 @@ def average_finish_time
     p results_array 
     somme = results_array.sum
     taille = results_array.length
-puts "En moyenne, il a fallut #{somme/taille} lancé de dé !"
+puts "En moyenne, il a fallut #{somme/taille} lancés de dé !"
 end
 
 average_finish_time
