@@ -4,7 +4,7 @@
 #descend d'une marche si le dé fait 1; n = n-1
 #ne fait rien si le dé fait 2, 3 ou 4; n = n
 
-def lancer_de_dé_user
+def lancer_de_dé
 dice = rand(1..6).to_s
 #print "appuie sur entrée pour relancer le dé" #pour mettre entrer manuel
 #blank = gets.chomp
